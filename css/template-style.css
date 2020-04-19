@@ -5,12 +5,12 @@ body {
   background: #fff;
 }
 p {
-  color: #777;
+  color: #ffffff;
   font-size: 0.85rem;
   line-height: 1.6rem;
 }
 a, a:link, a:visited, a:hover, a:active { 
-color: #777;
+color: #ffffff;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;                                         
@@ -137,8 +137,8 @@ a.text-tag:link {
   padding: 6px 9px;
 }
 a.text-tag:link:hover {
-  background: #002633 none repeat scroll 0 0;
-  border: 1px solid #002633;
+  background: rgb(22, 158, 221) none repeat scroll 0 0;
+  border: 1px solid rgb(22, 158, 221);
   color: #fff;
   transition: all 0.20s linear 0s;
   -o-transition: all 0.20s linear 0s;
@@ -197,7 +197,7 @@ td {border-right:1px solid #fff;}
 .primary-color-white .background-primary-hightlight .top-nav .active-item > a, .primary-color-white .background-primary-hightlight .top-nav li a:hover, .primary-color-white .background-primary-hightlight .aside-nav li a:hover, 
 .primary-color-white .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-white .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
   background: #fff none repeat scroll 0 0;
-  color: #002633;
+  color: rgb(22, 158, 221);
 }
 
 .background-primary-hightlight .top-nav .active-item > a, .background-primary-hightlight .top-nav li a:hover, .background-primary-hightlight .aside-nav li a:hover, 
@@ -211,7 +211,7 @@ td {border-right:1px solid #fff;}
 .background-dark-hightlight .aside-nav > ul > li.active-item > a:link, .background-dark-hightlight .aside-nav > ul > li.active-item > a:visited,
 .primary-color-dark .background-primary-hightlight .top-nav .active-item > a, .primary-color-dark .background-primary-hightlight .top-nav li a:hover, .primary-color-dark .background-primary-hightlight .aside-nav li a:hover, 
 .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
-  background: #002633 none repeat scroll 0 0;
+  background: rgb(22, 158, 221) none repeat scroll 0 0;
   color: #fff;
 }
 .background-none {
@@ -312,7 +312,7 @@ video {
 
 /* Top Nav */
 .top-nav li a, .background-white .top-nav li a {
-  color: #002633;
+  color: rgb(22, 158, 221);
   font-size: 0.85rem;
   padding: 0.7em 1.25em;
 }
@@ -324,7 +324,7 @@ nav {
   z-index: 2;
 }  
 .top-nav ul ul {
-  background: #002633 none repeat scroll 0 0;
+  background: rgb(22, 158, 221) none repeat scroll 0 0;
 }
 .top-nav li ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -333,7 +333,7 @@ nav {
   border-bottom: 0;
 }
 .top-nav li ul li a, .background-white .top-nav li ul li a, .top-nav .active-item li a {
-  background: #002633 none repeat scroll 0 0;
+  background: rgb(22, 158, 221) none repeat scroll 0 0;
   color: rgba(255,255,255, 0.75);
 }
 ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .aside-submenu > a::after, ul.chevron .aside-sub-submenu > a::after {
@@ -424,22 +424,22 @@ aside.aside-left {
 }  
 .aside-nav.background-dark-hightlight > ul > li > a:hover, .aside-nav.background-dark-hightlight > ul > li.active-item > a:link, .aside-nav.background-dark-hightlight > ul > li.active-item > a:visited,
 .primary-color-dark .aside-nav.background-primary-hightlight > ul > li > a:hover, .primary-color-dark .aside-nav.background-primary-hightlight > ul > li.active-item > a:link, .primary-color-dark .aside-nav.background-primary-hightlight > ul > li.active-item > a:visited {
-  border-color: #002633;
+  border-color: rgb(22, 158, 221);
 }
 
 /* Font colors */
 .background-white, .background-white p, a.background-white, .background-white a, .background-white a:link, .background-white a:visited, .background-white a:hover, .background-white a:active {
-  color: #777;
+  color: #ffffff;
 } 
 .background-dark, .background-dark p, a.background-dark, a.background-dark:visited, a.background-dark:link, .background-dark a, .background-dark a:link, .background-dark a:visited, .background-dark a:hover, .background-dark a:active,
 .primary-color-dark .background-primary, .primary-color-dark .background-primary p, .primary-color-dark a.background-primary, .primary-color-dark a.background-primary:visited, .primary-color-dark a.background-primary:link, .primary-color-dark a.background-primary:visited, .primary-color-dark .background-primary a, .primary-color-dark .background-primary a:link, .primary-color-dark .background-primary a:visited, .primary-color-dark .background-primary a:hover, .primary-color-dark .background-primary a:active {
-  color: #7697A2;
+  color: #ffffff;
 }
 .background-white h1, .background-white h2, .background-white h3, .background-white h4, .background-white h5, .background-white h6,
 .background-white .h1, .background-white .h2, .background-white .h3, .background-white .h4, .background-white .h5, .background-white .h6, 
 .primary-color-white .background-primary h1, .primary-color-white .background-primary h2, .primary-color-white .background-primary h3, .primary-color-white .background-primary h4, .primary-color-white .background-primary h5, .primary-color-white .background-primary h6,
 .primary-color-white .background-primary .h1, .primary-color-white .background-primary .h2, .primary-color-white .background-primary .h3, .primary-color-white .background-primary .h4, .primary-color-white .background-primary .h5, .primary-color-white .background-primary .h6 {
-  color: #002633;
+  color: rgb(22, 158, 221);
 } 
 .image-hover-overlay-content *,
 .background-primary, .background-primary p, a.background-primary, a.background-primary:visited, a.background-primary:link, .background-primary a, .background-primary a:link, .background-primary a:visited, .background-primary a:hover, .background-primary a:active,
@@ -463,7 +463,7 @@ aside.aside-left {
   color: rgb(22, 158, 221) !important;
 }
 .text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
-  color: #002633 !important;
+  color: rgb(22, 158, 221) !important;
 } 
 .text-white-hover, .text-primary-hover, .text-dark-hover {
   transition: color 0.20s linear 0s;
@@ -479,7 +479,7 @@ aside.aside-left {
   color: rgb(22, 158, 221) !important;
 }
 .text-dark-hover:hover, .primary-color-dark .text-primary-hover:hover {
-  color: #002633 !important;
+  color: rgb(22, 158, 221) !important;
 } 
 
 /* Background Colors */
@@ -490,7 +490,7 @@ aside.aside-left {
   background-color: rgb(22, 158, 221) !important;
 }
 .background-dark, .primary-color-dark .background-primary {
-  background-color: #002633 !important; 
+  background-color: rgb(22, 158, 221) !important; 
 }
 /* Background Opacity */
 .background-white.background-transparent, .primary-color-white .background-primary.background-transparent {
@@ -500,7 +500,7 @@ aside.aside-left {
   background-color: rgba(16, 200, 175, 0.85) !important;
 }
 .background-dark.background-transparent, .primary-color-dark .background-primary.background-transparent {
-  background-color: rgba(0, 38, 51, 0.85) !important;
+  background-color: rgb(22, 158, 221) !important;
 }
 
 
@@ -608,7 +608,7 @@ aside.aside-left {
 .button.button-white-stroke:hover, a.button.button-white-stroke:hover,
 .primary-color-white .button.button-primary-stroke:hover, .primary-color-white a.button.button-primary-stroke:hover {
   background: #fff none repeat scroll 0 0;
-  color: #002633;
+  color: rgb(22, 158, 221);
 }
 .button.button-primary-stroke, a.button.button-primary-stroke, a.button.button-primary-stroke:link, a.button.button-primary-stroke:visited,
 .primary-color-primary .button.button-primary-stroke, .primary-color-primary a.button.button-primary-stroke, .primary-color-primary a.button.button-primary-stroke:link, .primary-color-primary a.button.button-primary-stroke:visited {
@@ -626,13 +626,13 @@ aside.aside-left {
 .button.button-dark-stroke, a.button.button-dark-stroke, a.button.button-dark-stroke:link, a.button.button-dark-stroke:visited,
 .primary-color-dark .button.button-primary-stroke, .primary-color-dark a.button.button-primary-stroke, .primary-color-dark a.button.button-primary-stroke:link, .primary-color-dark a.button.button-primary-stroke:visited {
   background: none;
-  border: 1px solid #002633;
+  border: 1px solid rgb(22, 158, 221);
   box-shadow: none;
-  color: #002633;
+  color: rgb(22, 158, 221);
 }
 .button.button-dark-stroke:hover, a.button.button-dark-stroke:hover,
 .primary-color-dark .button.button-primary-stroke:hover, .primary-color-dark a.button.button-primary-stroke:hover {
-  background: #002633 none repeat scroll 0 0;
+  background: rgb(22, 158, 221) none repeat scroll 0 0;
   color: #fff;
 }
 
@@ -1058,7 +1058,7 @@ i.icon-circle-small {
   display: inline-block;
 }
 .owl-carousel .owl-dot span {
-  background: #7697a2 none repeat scroll 0 0;
+  background: #ffffff none repeat scroll 0 0;
   border-radius: 0;
   display: block;
   height: 1px;
@@ -1078,8 +1078,8 @@ i.icon-circle-small {
 }
 .owl-carousel .owl-nav div {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #7697a2!important;
-  border: 1px solid #7697a2;
+  color: #ffffff!important;
+  border: 1px solid #ffffff;
   border-radius: 0;
   font-family: mfg;
   height: 40px;
@@ -1161,18 +1161,18 @@ display:none;
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited,
 .background-white a.tab-label, .background-white a.tab-label:link, .background-white a.tab-label:visited, .background-white a.tab-label:hover {
-  background: #002633 none repeat scroll 0 0;
+  background: rgb(22, 158, 221) none repeat scroll 0 0;
   color: rgba(255,255,255, 0.75);
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover,
 .background-white a.tab-label, .background-white a.tab-label:link, .background-white a.tab-label:visited, .background-white a.tab-label:hover {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #002633;
+  color: rgb(22, 158, 221);
 }
 .background-white-hightlight a.tab-label.active-btn, .background-white-hightlight a.tab-label:hover,
 .primary-color-white .background-primary-hightlight a.tab-label.active-btn, .primary-color-white .background-primary-hightlight a.tab-label:hover {
   background: #fff none repeat scroll 0 0;
-  color: #002633;
+  color: rgb(22, 158, 221);
 }
 .background-primary-hightlight a.tab-label.active-btn, .background-primary-hightlight a.tab-label:hover,
 .primary-color-primary .background-primary-hightlight a.tab-label.active-btn, .primary-color-primary .background-primary-hightlight a.tab-label:hover {
@@ -1181,7 +1181,7 @@ a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover,
 }
 .background-dark-hightlight a.tab-label.active-btn, .background-dark-hightlight a.tab-label:hover,
 .primary-color-dark .background-primary-hightlight a.tab-label.active-btn, .primary-color-dark .background-primary-hightlight a.tab-label:hover {
-  background: #002633 none repeat scroll 0 0;
+  background: rgb(22, 158, 221) none repeat scroll 0 0;
   color: #fff;
 }
 
@@ -1245,14 +1245,14 @@ p.form-success {
       vertical-align: middle;
     }
     .nav-text::after {
-      color: #002633;
+      color: rgb(22, 158, 221);
       display: inline-block;
       font-size: 3rem;
       margin-left: 0;
       margin-top: 30px;
     }
     .top-nav li a, .background-white .top-nav li a {
-      background: #002633 none repeat scroll 0 0;
+      background: rgb(22, 158, 221) none repeat scroll 0 0;
       color: #fff;
       font-size: 1.1em;
       padding: 1em;
